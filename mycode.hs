@@ -1,4 +1,6 @@
 --examples from class to help
+-- by AnnaKathleen
+-- for Spooketober
 
 import Data.Time.Calendar
 import Data.Time.Calendar.OrdinalDate

@@ -1,0 +1,18 @@
+--September 21 2018
+--Anna Rabatich, 301334497
+
+--Hailstone Length, using hailstone function from exercise 1
+
+hailstone n
+	| even n = n `div` 2
+	| odd n = (3 * n) + 1
+
+hailLen 1 = 0
+hailLen n = 1 + hailLen(hailstone n)
+
+--Primes and Divisors
+
+divisors :: Int -> [Int]
+divisors n = [⏹ | i <- [2..(⏹ `div` 2)], ⏹ `mod` ⏹ == 0]
+primes :: Int -> [Int]
+primes n = [i | i <- [⏹], divisors i == ⏹]
